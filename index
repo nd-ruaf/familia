@@ -13,25 +13,19 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Google Tag Manager Prod-->
-  <script>(function (w, d, s, l, i) {
+  <script>
+    (function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KMWQF5L');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google Tag Manager Test-->
-  <!--   <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PS6HHVF');</script> -->
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+      }); 
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), 
+          dl = l != 'dataLayer' ? '&l=' + l : ''; 
+      j.async = true; 
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; 
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KMWQF5L');
+  </script>
   <!-- End Google Tag Manager -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -62,19 +56,23 @@
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
-<link rel="stylesheet" href="styles.07c134e75f118c3e998b.css"></head>
+
+  <link rel="stylesheet" href="styles.07c134e75f118c3e998b.css">
+</head>
 
 <body>
   <!-- Google Tag Manager Prod (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMWQF5L" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMWQF5L" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Google Tag Manager Test (noscript) -->
-  <!--   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS6HHVF" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript> -->
-  <!-- End Google Tag Manager (noscript) -->
   <app-root></app-root>
-<script src="runtime.96f7c8f8b53ed2a89900.js" defer></script><script src="polyfills-es5.5d2e067f3c423212c4bc.js" nomodule defer></script><script src="polyfills.0b3140f195fe29dfd186.js" defer></script><script src="scripts.78da50af8ae384e971e4.js" defer></script><script src="main.ffc6cee6298c3a29bbdd.js" defer></script></body>
 
+  <script src="runtime.96f7c8f8b53ed2a89900.js" defer></script>
+  <script src="polyfills-es5.5d2e067f3c423212c4bc.js" nomodule defer></script>
+  <script src="polyfills.0b3140f195fe29dfd186.js" defer></script>
+  <script src="scripts.78da50af8ae384e971e4.js" defer></script>
+  <script src="main.ffc6cee6298c3a29bbdd.js" defer></script>
+</body>
 </html>
