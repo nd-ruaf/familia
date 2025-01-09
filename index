@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es" class="notranslate" translate="no">
+<head>
+  <meta charset="utf-8">
+  <title>PortalSalud</title>
+  <base href="./">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Google Tag Manager Prod-->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KMWQF5L');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager Test-->
+  <!--   <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PS6HHVF');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133589055-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-133589055-1');
+  </script>
+
+  <!-- Hotjar Tracking Code for www.saludcolsubsidio.com -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 1181252,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+<link rel="stylesheet" href="styles.07c134e75f118c3e998b.css"></head>
+
+<body>
+  <!-- Google Tag Manager Prod (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMWQF5L" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Google Tag Manager Test (noscript) -->
+  <!--   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS6HHVF" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+  <app-root></app-root>
+<script src="runtime.96f7c8f8b53ed2a89900.js" defer></script><script src="polyfills-es5.5d2e067f3c423212c4bc.js" nomodule defer></script><script src="polyfills.0b3140f195fe29dfd186.js" defer></script><script src="scripts.78da50af8ae384e971e4.js" defer></script><script src="main.ffc6cee6298c3a29bbdd.js" defer></script></body>
+
+</html>
